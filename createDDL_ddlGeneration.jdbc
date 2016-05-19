@@ -1,0 +1,2 @@
+CREATE TABLE project.server (hostname VARCHAR(16) NOT NULL, folder_location VARCHAR(128) NOT NULL, password LONGBLOB NOT NULL, port INTEGER NOT NULL, username VARCHAR(64) NOT NULL, PRIMARY KEY (hostname))
+CREATE TABLE project.user (username VARCHAR(64) NOT NULL, password VARCHAR(64) NOT NULL, type VARCHAR(255) NOT NULL, PRIMARY KEY (username))
